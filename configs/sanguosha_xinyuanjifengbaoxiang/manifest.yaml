@@ -1,0 +1,14 @@
+id: sanguosha_xinyuanjifengbaoxiang
+name: 心愿积分宝箱
+description: 三国杀移动版心愿积分宝箱
+terminations:
+- file: termination.yaml
+  name: termination
+metadata:
+  source: https://mp.weixin.qq.com/s/geByodTqXB60NdY9f5JFFg
+  game: sanguoshayidonban
+  time: '2026_4_13'
+  cost_id: xinyuanjifeng
+  cost_name: 心愿积分
+  amount: 5
+  per_cost_to_rmb: null

@@ -1,0 +1,15 @@
+id: sanguosha_mengzhihuilang_0_93_last24
+name: 梦之回廊 0.93（最后24碎片）
+description: 梦之回廊 0.93，存在隐藏保底规则，最后一个碎片按24计算
+terminations:
+- file: termination.yaml
+  name: termination
+metadata:
+  source: https://www.sanguosha.cn/pc/news-detail-2207.html
+  game: 三国杀
+  time: '2026_7_4'
+  cost_id: midiezhu
+  cost_name: 迷迭珠
+  amount: 1
+  per_cost_to_rmb: 3
+  note: 存在隐藏保底规则，且概率存在异议；当前配置按最后一个碎片为24计算

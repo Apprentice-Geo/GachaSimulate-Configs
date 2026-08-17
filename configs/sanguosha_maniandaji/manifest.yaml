@@ -1,0 +1,18 @@
+id: sanguosha_maniandaji
+name: 马年大吉
+description: 三国杀移动版马年大吉卡池
+terminations:
+- file: termination_mouzhugeliang.yaml
+  name: termination_mouzhugeliang
+- file: termination_quan1.yaml
+  name: termination_quan1
+- file: termination_shenjiangwei.yaml
+  name: termination_shenjiangwei
+metadata:
+  source: https://www.sanguosha.cn/pc/news-detail-2256.html
+  game: sanguoshayidonban
+  time: '2026_4_24'
+  cost_id: maniandaji
+  cost_name: 马年大吉
+  amount: 1
+  per_cost_to_rmb: 2

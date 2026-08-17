@@ -1,0 +1,22 @@
+{
+  "name": "gachasimulate-configs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.3.0",
+  "scripts": {
+    "prepare:compiler": "tsx scripts/prepare_compiler.ts",
+    "build": "tsx scripts/build_repository.ts",
+    "format": "prettier --write \"scripts/**/*.ts\" package.json tsconfig.json README.md",
+    "format:check": "prettier --check \"scripts/**/*.ts\" package.json tsconfig.json README.md",
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "@types/node": "^25.7.0",
+    "prettier": "^3.8.3",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
