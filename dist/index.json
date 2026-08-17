@@ -76,12 +76,12 @@
       "name": "心愿积分宝箱",
       "description": "三国杀移动版心愿积分宝箱",
       "download_url": "packages/sanguosha_xinyuanjifengbaoxiang.zip",
-      "sha256": "98d79e1225134d41e81c04cf635651cfdfa76651002d526a17b5ce827b8ad2f5"
+      "sha256": "793f8c5ad96ca5d00b824aaee3050ece6f1b26e64cd77419d263683b46b929a5"
     },
     {
       "id": "wangzhe_wenxinjian_lixin",
       "name": "问心剑·李信",
-      "description": "王者荣耀问心剑祈愿活动",
+      "description": "王者荣耀问心剑活动",
       "download_url": "packages/wangzhe_wenxinjian_lixin.zip",
       "sha256": "bf3a6a85144a287b3f2b0c9e814ae7fadfa9298af032780c91e3cd5f4f5d2b55"
     },
@@ -95,14 +95,14 @@
     {
       "id": "wangzhe_zhenpinchuanshuo_nezha2",
       "name": "珍品传说·哪吒2",
-      "description": "王者荣耀珍品传说哪吒2祈愿活动",
+      "description": "王者荣耀珍品传说哪吒2活动",
       "download_url": "packages/wangzhe_zhenpinchuanshuo_nezha2.zip",
       "sha256": "64db4cdaa696af3acab724e7de086d2dd239e381bd2c24a0ccd3d953d4e3f580"
     },
     {
       "id": "wangzhe_zhenpinchuanshuo_sanliou",
       "name": "珍品传说·三丽鸥",
-      "description": "王者荣耀珍品传说三丽鸥祈愿活动",
+      "description": "王者荣耀珍品传说三丽鸥活动",
       "download_url": "packages/wangzhe_zhenpinchuanshuo_sanliou.zip",
       "sha256": "04a71c55c209ad9d5d228ad98adbe4473c977cdafee01135f16b59f5a2e1ee29"
     }
