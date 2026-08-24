@@ -7,14 +7,14 @@
   "scripts": {
     "prepare:compiler": "tsx scripts/prepare_compiler.ts",
     "build": "tsx scripts/build_repository.ts",
-    "format": "prettier --write \"scripts/**/*.ts\" package.json tsconfig.json README.md",
-    "format:check": "prettier --check \"scripts/**/*.ts\" package.json tsconfig.json README.md",
-    "lint": "tsc --noEmit",
+    "format": "prettier --write \"{scripts,test}/**/*.ts\" package.json tsconfig.json README.md",
+    "format:check": "prettier --check \"{scripts,test}/**/*.ts\" package.json tsconfig.json README.md",
     "typecheck": "tsc --noEmit",
-    "test": "node --test"
+    "test": "node --import tsx --test \"test/**/*.test.ts\""
   },
   "devDependencies": {
     "@types/node": "^25.7.0",
+    "fflate": "^0.8.3",
     "prettier": "^3.8.3",
     "tsx": "^4.21.0",
     "typescript": "^6.0.3"

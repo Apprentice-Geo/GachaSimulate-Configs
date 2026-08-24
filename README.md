@@ -9,3 +9,15 @@ pnpm install
 pnpm run prepare:compiler
 pnpm run build
 ```
+
+To prevent the CI workflow from failing, run the following commands before pushing:
+
+```bash
+pnpm install --frozen-lockfile
+pnpm run prepare:compiler
+pnpm run format:check
+pnpm run typecheck
+pnpm test
+pnpm run build
+git diff --exit-code -- dist/
+```

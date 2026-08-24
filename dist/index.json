@@ -6,105 +6,105 @@
       "name": "马年大吉",
       "description": "三国杀移动版马年大吉卡池",
       "download_url": "packages/sanguosha_maniandaji.zip",
-      "sha256": "d6eb3f6472db5dbae275f52b8fe49a301a470dcafeb293709869060dae7e1212"
+      "sha256": "7d1114ee5857acdeb22f159cf256ed2aafc7c52a4ffcc9b7c11ff952d24d108d"
     },
     {
       "id": "sanguosha_mengzhihuilang_0_29_last25",
       "name": "梦之回廊 0.29（最后25碎片）",
       "description": "梦之回廊 0.29，存在隐藏保底规则，最后一个碎片按25计算",
       "download_url": "packages/sanguosha_mengzhihuilang_0_29_last25.zip",
-      "sha256": "07aee2e8d178cdbf7e089343f153d839251005e6e9a852f31944a232fbb3285f"
+      "sha256": "e7526f870386dc6dde4fbd80afe3cf10c07d9681ca48b9e8296692c03442fe53"
     },
     {
       "id": "sanguosha_mengzhihuilang_0_41_last25",
       "name": "梦之回廊 0.41（最后25碎片）",
       "description": "梦之回廊 0.41，存在隐藏保底规则，最后一个碎片按25计算",
       "download_url": "packages/sanguosha_mengzhihuilang_0_41_last25.zip",
-      "sha256": "967caa37ad134224f7257762907adffaece625bfa6035217ec62a2e25800aa00"
+      "sha256": "94885537a2e9996662447a9da4f7d8e8b043b1143f2c2fa9333914ae24af0f61"
     },
     {
       "id": "sanguosha_mengzhihuilang_0_93_last24",
       "name": "梦之回廊 0.93（最后24碎片）",
       "description": "梦之回廊 0.93，存在隐藏保底规则，最后一个碎片按24计算",
       "download_url": "packages/sanguosha_mengzhihuilang_0_93_last24.zip",
-      "sha256": "b664ed391976fcf36d62194411e4bf8ccb681b7c8d1fa339756f6f685cddebbd"
+      "sha256": "104256e5c9850b183560fceaee45852fef3fb8b4fb5b34b865ea3f56e4ff918a"
     },
     {
       "id": "sanguosha_mengzhihuilang_0_98_last24",
       "name": "梦之回廊 0.98（最后24碎片）",
       "description": "梦之回廊 0.98，存在隐藏保底规则，最后一个碎片按24计算",
       "download_url": "packages/sanguosha_mengzhihuilang_0_98_last24.zip",
-      "sha256": "a156babfebd472e9d7fe2e426d817dd8c6222b858a5f03da2bb279a46aaec785"
+      "sha256": "37c47f4dc1fec7cec91a83ba798c4cb04b7e667f43aeac0fa5ca9241aee65e0a"
     },
     {
       "id": "sanguosha_mengzhihuilang_1_03_last25",
       "name": "梦之回廊 1.03（最后25碎片）",
       "description": "梦之回廊 1.03，存在隐藏保底规则，最后一个碎片按25计算",
       "download_url": "packages/sanguosha_mengzhihuilang_1_03_last25.zip",
-      "sha256": "4d47989d7ed2768e292f85cee4f93057e0dc82d746bff1f4f192f2403482c8df"
+      "sha256": "dd72fb7fbf5cc010e59589087df6d32d7a1cba627bacc5dcfee9355c4d8dedfe"
     },
     {
       "id": "sanguosha_mengzhihuilang_3_05_last24",
       "name": "梦之回廊 3.05（最后24碎片）",
       "description": "梦之回廊 3.05，存在隐藏保底规则，最后一个碎片按24计算",
       "download_url": "packages/sanguosha_mengzhihuilang_3_05_last24.zip",
-      "sha256": "3553914366cc18f29e18289d01b8371d4a6ce42a915898972a2321dc7b374cff"
+      "sha256": "90ec35173d0d8299f20138c2380a3590c1242801aca827e7e65a690b6c607607"
     },
     {
       "id": "sanguosha_mengzhihuilang_4_last24",
       "name": "梦之回廊 4（最后24碎片）",
       "description": "梦之回廊 4，存在隐藏保底规则，最后一个碎片按24计算",
       "download_url": "packages/sanguosha_mengzhihuilang_4_last24.zip",
-      "sha256": "a72040ad1fc96c6472e01ec0ae622bcf23a7ed2752c344b7e041598bf226b02c"
+      "sha256": "72192915b26789ce10bfaa285f7998892b3160278df4ce8c18d7532617907831"
     },
     {
       "id": "sanguosha_mengzhihuilang_8_last24",
       "name": "梦之回廊 8（最后24碎片）",
       "description": "梦之回廊 8，存在隐藏保底规则，最后一个碎片按24计算",
       "download_url": "packages/sanguosha_mengzhihuilang_8_last24.zip",
-      "sha256": "a9b2214de47108ec55b85434a54edffc0309e5b1030553d7953e6d8e0a6553d2"
+      "sha256": "f536b33a84fef3e44e6d2c9436c8eca61c2fd7e56d27f01d246101092f0a1eb4"
     },
     {
       "id": "sanguosha_xiadanzhonghun",
       "name": "侠胆忠魂",
       "description": "三国杀移动版侠胆忠魂卡池",
       "download_url": "packages/sanguosha_xiadanzhonghun.zip",
-      "sha256": "cd548294ccfcfb1111dda7e9bb611c51b067425c282ba9e762a9c0500629eaec"
+      "sha256": "8974a246f38bc887a05f672a03cdb18dd3031d01c7c31efa99c4e344a458a589"
     },
     {
       "id": "sanguosha_xinyuanjifengbaoxiang",
       "name": "心愿积分宝箱",
       "description": "三国杀移动版心愿积分宝箱",
       "download_url": "packages/sanguosha_xinyuanjifengbaoxiang.zip",
-      "sha256": "793f8c5ad96ca5d00b824aaee3050ece6f1b26e64cd77419d263683b46b929a5"
+      "sha256": "2ccbceb6cef0ec30f47801099648988cf7319d626e1914dd9606e2a47c95b77c"
     },
     {
       "id": "wangzhe_wenxinjian_lixin",
       "name": "问心剑·李信",
       "description": "王者荣耀问心剑活动",
       "download_url": "packages/wangzhe_wenxinjian_lixin.zip",
-      "sha256": "bf3a6a85144a287b3f2b0c9e814ae7fadfa9298af032780c91e3cd5f4f5d2b55"
+      "sha256": "37739c6e5648ad4b004d7202f88193f15d2477f7a80d600ab412b161dbf223c8"
     },
     {
       "id": "wangzhe_wuxiang_sunwukong",
       "name": "无相·孙悟空",
       "description": "王者荣耀无相祈愿活动",
       "download_url": "packages/wangzhe_wuxiang_sunwukong.zip",
-      "sha256": "8846ab0798787960ed8b7f8a4274fae13a559761fc627088259a33cca776b557"
+      "sha256": "bcb5ade1852a99b6588e5019026186baf67bff1868798a3edd0027ae266c7a7c"
     },
     {
       "id": "wangzhe_zhenpinchuanshuo_nezha2",
       "name": "珍品传说·哪吒2",
       "description": "王者荣耀珍品传说哪吒2活动",
       "download_url": "packages/wangzhe_zhenpinchuanshuo_nezha2.zip",
-      "sha256": "64db4cdaa696af3acab724e7de086d2dd239e381bd2c24a0ccd3d953d4e3f580"
+      "sha256": "a5efa2860b3a16e1769f75a185088165d82ff0ced41c208ec1281e3f1fd46537"
     },
     {
       "id": "wangzhe_zhenpinchuanshuo_sanliou",
       "name": "珍品传说·三丽鸥",
       "description": "王者荣耀珍品传说三丽鸥活动",
       "download_url": "packages/wangzhe_zhenpinchuanshuo_sanliou.zip",
-      "sha256": "04a71c55c209ad9d5d228ad98adbe4473c977cdafee01135f16b59f5a2e1ee29"
+      "sha256": "c5451648d2e022974a41aff0657054b82553d9fe4b44b215b2e777dc5d220f94"
     }
   ]
 }
