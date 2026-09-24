@@ -1,0 +1,18 @@
+id: wangzhe_sanrio_sunshangxiang
+name: 三丽鸥家族祈愿·孙尚香
+description: 王者荣耀三丽鸥家族祈愿活动
+terminations:
+  - file: termination_skin.yaml
+    name: termination_skin
+  - file: termination_full_set.yaml
+    name: termination_full_set
+  - file: termination_accessories.yaml
+    name: termination_accessories
+metadata:
+  source: https://pvp.qq.com/web201706/newsdetail.shtml?tid=808909
+  game: 王者荣耀
+  time: "2026_09_25"
+  cost_id: qiyuan_coin
+  cost_name: 祈愿币
+  amount: 10
+  per_cost_to_rmb: 1

@@ -1,0 +1,9 @@
+retained_items:
+  - sunshangxiang_yunduanleyuan: 1
+  - yunduanqilv_tianmu: 1
+  - qiyuan_point: 610
+
+termination_rule:
+  condition:
+    check: qiyuan_point >= 610
+    actions: terminate accessories exchange

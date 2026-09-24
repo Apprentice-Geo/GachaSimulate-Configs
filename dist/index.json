@@ -79,6 +79,13 @@
       "sha256": "2ccbceb6cef0ec30f47801099648988cf7319d626e1914dd9606e2a47c95b77c"
     },
     {
+      "id": "wangzhe_sanrio_sunshangxiang",
+      "name": "三丽鸥家族祈愿·孙尚香",
+      "description": "王者荣耀三丽鸥家族祈愿活动",
+      "download_url": "packages/wangzhe_sanrio_sunshangxiang.zip",
+      "sha256": "0da443422ded76687b01e3f1fd6543a6fc5ca24577e7a1ab2a89e8c6a493e041"
+    },
+    {
       "id": "wangzhe_wenxinjian_lixin",
       "name": "问心剑·李信",
       "description": "王者荣耀问心剑活动",

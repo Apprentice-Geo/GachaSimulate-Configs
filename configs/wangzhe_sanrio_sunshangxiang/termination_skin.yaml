@@ -1,0 +1,13 @@
+retained_items:
+  - sunshangxiang_yunduanleyuan: 1
+  - yunduanqilv_tianmu: 1
+  - qiyuan_point: 1788
+
+termination_rule:
+  condition:
+    op: OR
+    children:
+      - check: sunshangxiang_yunduanleyuan >= 1
+        actions: terminate skin obtained
+      - check: qiyuan_point >= 1788
+        actions: terminate point exchange

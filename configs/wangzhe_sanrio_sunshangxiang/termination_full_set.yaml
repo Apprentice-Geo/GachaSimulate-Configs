@@ -1,0 +1,27 @@
+retained_items:
+  - sunshangxiang_yunduanleyuan: 1
+  - yunduanqilv_tianmu: 1
+  - qiyuan_point: 3396
+
+termination_rule:
+  condition:
+    op: OR
+    children:
+      - op: AND
+        children:
+          - check: sunshangxiang_yunduanleyuan >= 1
+          - check: yunduanqilv_tianmu >= 1
+          - check: qiyuan_point >= 610
+        actions: terminate full set
+      - op: AND
+        children:
+          - check: sunshangxiang_yunduanleyuan >= 1
+          - check: qiyuan_point >= 1608
+        actions: terminate full set
+      - op: AND
+        children:
+          - check: yunduanqilv_tianmu >= 1
+          - check: qiyuan_point >= 2398
+        actions: terminate full set
+      - check: qiyuan_point >= 3396
+        actions: terminate full set

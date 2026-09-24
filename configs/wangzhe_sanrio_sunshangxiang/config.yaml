@@ -1,0 +1,182 @@
+schema_version: 2
+
+items:
+  - draw_count: 抽数
+  - qiyuan_point: 祈愿积分
+  - random_sanrio_gift: 随机三丽鸥家族礼
+  - random_legendary_skin: 随机传说皮肤
+  - random_skin: 随机皮肤
+  - skin_fragment8: 皮肤碎片8
+  - xiaozhoujimeng2: 小舟寄梦2
+  - sunshangxiang_yunduanleyuan: 孙尚香_云端乐园
+  - yunduanqilv_tianmu: 云端奇旅天幕
+  - epic_skin: 史诗皮肤
+  - brave_skin: 勇者皮肤
+  - companion_skin: 伴生皮肤
+
+pools:
+  - begin_pool:
+      - probability: 0.001
+        actions: random_sanrio_gift += 1
+      - probability: 0.005
+        actions: random_legendary_skin += 1
+      - probability: 0.135
+        actions: random_skin += 1
+      - probability: 0.008
+        actions: qiyuan_point += 68
+      - probability: 0.04
+        actions: qiyuan_point += 28
+      - probability: 0.237
+        actions: qiyuan_point += 18
+      - probability: 0.3
+        actions: qiyuan_point += 8
+      - probability: 0.152
+        actions: skin_fragment8 += 1
+      - probability: 0.122
+        actions: xiaozhoujimeng2 += 1
+
+  - sanrio_gift_pool:
+      - probability: 0.1
+        actions: sunshangxiang_yunduanleyuan += 1
+      - probability: 0.9
+        actions: yunduanqilv_tianmu += 1
+
+  - random_skin_pool:
+      - probability: 0.1
+        actions: epic_skin += 1
+      - probability: 0.3
+        actions: brave_skin += 1
+      - probability: 0.6
+        actions: companion_skin += 1
+
+rules:
+  - draw_5:
+      mode: once
+      condition:
+        check: draw_count >= 5
+        actions:
+          - random_skin += 1
+  - draw_10:
+      mode: once
+      condition:
+        check: draw_count >= 10
+        actions:
+          - random_skin += 1
+  - draw_25:
+      mode: once
+      condition:
+        check: draw_count >= 25
+        actions:
+          - random_skin += 1
+  - draw_40:
+      mode: once
+      condition:
+        check: draw_count >= 40
+        actions:
+          - qiyuan_point += 288
+  - draw_45:
+      mode: once
+      condition:
+        check: draw_count >= 45
+        actions:
+          - random_skin += 1
+  - draw_50:
+      mode: once
+      condition:
+        check: draw_count >= 50
+        actions:
+          - random_skin += 1
+  - draw_65:
+      mode: once
+      condition:
+        check: draw_count >= 65
+        actions:
+          - random_skin += 1
+  - draw_80:
+      mode: once
+      condition:
+        check: draw_count >= 80
+        actions:
+          - qiyuan_point += 288
+  - draw_85:
+      mode: once
+      condition:
+        check: draw_count >= 85
+        actions:
+          - random_skin += 1
+  - draw_90:
+      mode: once
+      condition:
+        check: draw_count >= 90
+        actions:
+          - random_skin += 1
+  - draw_105:
+      mode: once
+      condition:
+        check: draw_count >= 105
+        actions:
+          - random_skin += 1
+  - draw_120:
+      mode: once
+      condition:
+        check: draw_count >= 120
+        actions:
+          - qiyuan_point += 288
+
+item_resolve:
+  - item: random_sanrio_gift
+    retain: 0
+    actions:
+      - random_sanrio_gift -= 1
+      - draw sanrio_gift_pool
+  - item: random_legendary_skin
+    retain: 0
+    actions:
+      - random_legendary_skin -= 1
+      - qiyuan_point += 120
+  - item: random_skin
+    retain: 0
+    actions:
+      - random_skin -= 1
+      - draw random_skin_pool
+  - item: skin_fragment8
+    retain: 0
+    actions:
+      - skin_fragment8 -= 1
+      - qiyuan_point += 5
+  - item: xiaozhoujimeng2
+    retain: 0
+    actions:
+      - xiaozhoujimeng2 -= 1
+      - qiyuan_point += 5
+  - item: sunshangxiang_yunduanleyuan
+    retain: 1
+    actions:
+      - sunshangxiang_yunduanleyuan -= 1
+      - qiyuan_point += 520
+  - item: yunduanqilv_tianmu
+    retain: 1
+    actions:
+      - yunduanqilv_tianmu -= 1
+      - qiyuan_point += 288
+  - item: epic_skin
+    retain: 0
+    actions:
+      - epic_skin -= 1
+      - qiyuan_point += 60
+  - item: brave_skin
+    retain: 0
+    actions:
+      - brave_skin -= 1
+      - qiyuan_point += 40
+  - item: companion_skin
+    retain: 0
+    actions:
+      - companion_skin -= 1
+      - qiyuan_point += 20
+
+initial:
+  - change begin_pool
+
+every_draw:
+  - draw_count += 1
