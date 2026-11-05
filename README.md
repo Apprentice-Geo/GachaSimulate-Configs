@@ -19,5 +19,5 @@ pnpm run format:check
 pnpm run typecheck
 pnpm test
 pnpm run build
-git diff --exit-code -- dist/
+pnpm run check:dist
 ```

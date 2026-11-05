@@ -37,4 +37,4 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm run prepare:compiler
       - run: pnpm run build
-      - run: git diff --exit-code -- dist/
+      - run: pnpm run check:dist
